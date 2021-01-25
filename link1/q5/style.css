@@ -1,0 +1,10 @@
+span {
+  cursor: pointer;
+}
+ul {
+  display: none;
+}
+
+.view {
+  display: block;
+}
