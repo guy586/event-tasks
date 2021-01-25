@@ -1,5 +1,5 @@
 const div = document.querySelector("#text");
 const button = document.querySelector("button");
-button.onclick = function() {
+button.addEventListener('click', () => {
     div.style.display = "none";
-}
+});

@@ -1,6 +1,8 @@
 const field = document.getElementById("field");
 const ball = document.getElementById("ball");
-field.onclick = function(event) {
+field.addEventListener('click', moveball)
+
+function moveball() {
     let fieldCoords = this.getBoundingClientRect();
     let topc = event.clientY - fieldCoords.top - field.clientTop - ball.clientHeight / 2;
     let leftc = event.clientX - fieldCoords.left - field.clientLeft - ball.clientWidth / 2;

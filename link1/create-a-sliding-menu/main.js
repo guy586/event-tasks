@@ -1,5 +1,5 @@
 const title = document.querySelector('span');
 const list = document.querySelector('ul');
-title.onclick = function() {
+title.addEventListener('click', () => {
     list.classList.toggle('view');
-}
+});

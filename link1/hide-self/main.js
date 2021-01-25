@@ -1,4 +1,4 @@
 const button = document.querySelector('button');
-button.onclick = function() {
+button.addEventListener('click', () => {
     button.hidden = true;
-}
+});
