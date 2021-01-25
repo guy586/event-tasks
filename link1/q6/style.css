@@ -1,0 +1,11 @@
+div {
+  width: 450px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
