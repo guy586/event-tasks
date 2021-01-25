@@ -1,0 +1,14 @@
+#field {
+  background-color: greenyellow;
+  border: solid 10px black;
+  width: 200px;
+  height: 150px;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+  top: 0px; /*(y)*/
+  left: 0px; /*(x)*/
+  transition: all 1s;
+}
